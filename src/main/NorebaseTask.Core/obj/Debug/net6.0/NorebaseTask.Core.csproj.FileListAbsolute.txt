@@ -1,0 +1,12 @@
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/bin/Debug/net6.0/NorebaseTask.Core.deps.json
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/bin/Debug/net6.0/NorebaseTask.Core.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/bin/Debug/net6.0/NorebaseTask.Core.pdb
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.csproj.AssemblyReference.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.AssemblyInfoInputs.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.AssemblyInfo.cs
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.csproj.CoreCompileInputs.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/refint/NorebaseTask.Core.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/NorebaseTask.Core.pdb
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Core/obj/Debug/net6.0/ref/NorebaseTask.Core.dll

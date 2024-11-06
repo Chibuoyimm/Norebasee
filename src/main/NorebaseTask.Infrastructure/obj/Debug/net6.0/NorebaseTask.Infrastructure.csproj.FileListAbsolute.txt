@@ -1,0 +1,17 @@
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Infrastructure.deps.json
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Infrastructure.runtimeconfig.json
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Infrastructure.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Infrastructure.pdb
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Core.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/bin/Debug/net6.0/NorebaseTask.Core.pdb
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.csproj.AssemblyReference.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.AssemblyInfoInputs.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.AssemblyInfo.cs
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.csproj.CopyComplete
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/refint/NorebaseTask.Infrastructure.dll
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.pdb
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/NorebaseTask.Infrastructure.genruntimeconfig.cache
+/Users/olumide/Desktop/NorebaseTask/src/main/NorebaseTask.Infrastructure/obj/Debug/net6.0/ref/NorebaseTask.Infrastructure.dll
