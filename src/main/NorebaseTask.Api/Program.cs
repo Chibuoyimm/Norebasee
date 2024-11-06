@@ -25,7 +25,6 @@ builder.Services.AddEntityFrameworkNpgsql().AddDbContext<ApiDbContext>(opt =>
 //Jwt configuration starts here
 var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
 var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
-Console.WriteLine(jwtKey, jwtIssuer);
 
 builder.Services.AddAuthentication(options =>
 {
@@ -54,14 +53,25 @@ builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IArticleService, ArticleService>();
 
 var app = builder.Build();
+if (builder.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "NorebaseTask API v1");
+        c.RoutePrefix = string.Empty;
+    });
+}
+
 
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<JwtMiddleware>();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();
+  endpoints.MapControllers();
 });
 app.MapGet("/", () => "Hello World!");
 
