@@ -103,6 +103,10 @@ Go to `http://localhost:5114/swagger/v1/swagger.json`
 > NOTE: local development server must still be running
 
 
+## Database Diagram
+
+![Diagram](/db-diagram.png)
+
 
 # Design and Architecture of API
 
