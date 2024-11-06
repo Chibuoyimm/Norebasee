@@ -106,13 +106,23 @@ Go to `http://localhost:5114/swagger/v1/swagger.json`
 
 # Design and Architecture of API
 
-* The Norebase Like Task API was built using the .NET 6.0 Framework and PostgreSQL as the data storage mechanism.
-* .NET 6.0 is a high-performance, cross-platform framework designed for building modern web applications, APIs, and microservices. The API is built using ASP.NET Core, which is a modular, lightweight, and fast framework optimized for high-performance RESTful services.
-* The PostgreSQL database is used for persistent storage of data. It’s a powerful, open-source relational database that is known for its robustness, scalability, and support for advanced data types.
-* Entity Framework Core (EF Core) is used as the Object-Relational Mapping (ORM) layer for interacting with the PostgreSQL database. It provides an easy-to-use interface to work with relational databases through .NET objects.
-* The application provides a set of endpoints for user authentication, article management, and liking/unliking articles. This is made possible by defining models for Users and Articles and implementing services for handling these entities.
-* The JWT (JSON Web Token) authentication mechanism is used to secure the API endpoints, ensuring that only authenticated users can interact with certain resources like creating articles, liking, and unliking them.
-* The Swagger documentation is provided for API consumers to easily explore the endpoints and understand the request/response formats.
+* **I built the Norebase Like Task API using .NET 6.0 and PostgreSQL**: 
+.NET 6.0 is a super-fast, cross-platform framework that’s perfect for building modern web applications and APIs. It helps me create high-performance services that run efficiently. Specifically, I used ASP.NET Core, which is lightweight and designed to build RESTful APIs quickly.
+
+* **For data storage, I chose PostgreSQL**: 
+PostgreSQL is a powerful, open-source relational database that’s known for being reliable and scalable. It’s ideal for managing all the app's data, and its advanced features give me a lot of flexibility as the application grows.
+
+* **I used Entity Framework Core (EF Core) to interact with the database**: 
+EF Core is an ORM (Object-Relational Mapping) tool that makes it easier to work with databases. Instead of writing raw SQL queries, I can use .NET objects to interact with the data. This helps speed up development and keeps the code clean and simple.
+
+* **The API has a set of endpoints to handle things like user registration, logging in, managing articles, and liking/unliking them**: 
+I created models for Users and Articles and built services around them to manage everything. This makes it easy to add new features or modify the app as needed.
+
+* **JWT (JSON Web Tokens) are used to secure the API**: 
+I implemented JWT authentication to make sure that only logged-in users can access certain actions, like creating articles or liking them. When users log in, they get a token, which they need to include in their requests to prove they’re authorized. It’s a secure, efficient way to protect the app.
+
+* **I included Swagger documentation for easy API exploration:** 
+To make it easy for other developers (or anyone really) to interact with the API, I added Swagger. It’s a really handy tool that provides an interactive interface, showing all the available endpoints and letting users test them directly. It helps users understand how the API works and makes it a lot easier to get started.
 
 
 
