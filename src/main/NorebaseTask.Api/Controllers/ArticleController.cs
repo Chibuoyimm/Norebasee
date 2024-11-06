@@ -39,7 +39,7 @@ public class ArticlesController : ControllerBase
   public async Task<IActionResult> GetArticlesByUser()
   {
     var _currentUser = (User)HttpContext.Items["User"];
-    // Retrieve user ID from the HttpContext
+ 
     if (_currentUser == null)
       return Unauthorized();
 
@@ -55,7 +55,7 @@ public class ArticlesController : ControllerBase
       return StatusCode(StatusCodes.Status400BadRequest, ModelState);
 
     var _currentUser = (User)HttpContext.Items["User"];
-    // Retrieve user ID from the HttpContext
+
     if (_currentUser == null)
       return Unauthorized();
 
@@ -71,7 +71,7 @@ public class ArticlesController : ControllerBase
       return StatusCode(StatusCodes.Status400BadRequest, ModelState);
     
     var _currentUser = (User)HttpContext.Items["User"];
-    // Retrieve user ID from the HttpContext
+
     if (_currentUser == null)
       return Unauthorized();
 
@@ -84,7 +84,7 @@ public class ArticlesController : ControllerBase
   public async Task<IActionResult> DeleteArticle(Guid articleId)
   {
     var _currentUser = (User)HttpContext.Items["User"];
-    // Retrieve user ID from the HttpContext
+
     if (_currentUser == null)
       return Unauthorized();
     
@@ -92,11 +92,12 @@ public class ArticlesController : ControllerBase
     return StatusCode(response.StatusCode, response);
   }
 
-  // POST: api/article/likes/{articleId}
+  // POST: api/articles/like/{articleId}
   [HttpPost("like/{articleId}")]
   public async Task<IActionResult> LikeArticle(Guid articleId)
   {
     var _currentUser = (User)HttpContext.Items["User"];
+
     if (_currentUser == null)
       return Unauthorized();
 
@@ -104,11 +105,12 @@ public class ArticlesController : ControllerBase
     return StatusCode(response.StatusCode, response);
   }
 
-  // POST: api/article/likes/{articleId}
-  [HttpPost("like/{articleId}")]
+  // POST: api/articles/unlike/{articleId}
+  [HttpPost("unlike/{articleId}")]
   public async Task<IActionResult> UnLikeArticle(Guid articleId)
   {
     var _currentUser = (User)HttpContext.Items["User"];
+
     if (_currentUser == null)
       return Unauthorized();
 
@@ -116,11 +118,12 @@ public class ArticlesController : ControllerBase
     return StatusCode(response.StatusCode, response);
   }
 
-  // GET: api/article/likes/{articleId}
+  // GET: api/articles/like/{articleId}
   [HttpGet("like/{articleId}")]
   public async Task<IActionResult> GetArticleLikes(Guid articleId)
   {
     var _currentUser = (User)HttpContext.Items["User"];
+    
     if (_currentUser == null)
       return Unauthorized();
 
